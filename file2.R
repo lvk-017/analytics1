@@ -145,3 +145,4 @@ students%>% filter(gender =='M')
 students %>% filter (gender == 'M' & marks1 > 60)
 students %>% group_by(gender) %>% summarise(max(marks1), max(marks2))  
 students %>% group_by(college) %>% summarise (max(marks1), max(marks2))
+students
